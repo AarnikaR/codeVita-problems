@@ -1,0 +1,22 @@
+2.PROGRAM:
+from itertools import permutations
+a=list(input())
+b=int(input())
+a.sort()
+for c in permutations(a,b):
+    print("".join(c))
+input:
+HACK 2
+Output:
+AC
+AH
+AK
+CA
+CH
+CK
+HA
+HC
+HK
+KA
+KC
+KH
